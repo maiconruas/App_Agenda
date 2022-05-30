@@ -1,6 +1,6 @@
 package com.example.appcadastro.model;
 
-public class contato {
+public class Contato {
 
     private Integer id;
     private String nome;
@@ -10,8 +10,7 @@ public class contato {
     private String mae;
     private Double renda;
 
-    public contato(Integer id, String nome, String nome_social, String genero, String pai, String mae, Double renda) {
-        this.id = id;
+    public Contato(String nome, String nome_social, String genero, String pai, String mae, Double renda) {
         this.nome = nome;
         this.nome_social = nome_social;
         this.genero = genero;

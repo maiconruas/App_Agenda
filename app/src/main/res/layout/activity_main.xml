@@ -32,7 +32,7 @@
         android:background="@drawable/ic_baseline_person_24" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/faAdd"
+        android:id="@+id/Add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/agenda"
